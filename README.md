@@ -28,34 +28,24 @@ Extension: JavaScript, Chrome Extension APIs
 
 Others: GitHub Actions
 
-⚙️ Setup & Installation
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/neomail.git
-cd neomail
-2. Backend (Spring Boot)
-bash
-Copy
-Edit
+# ⚙️ Setup & Installation
+
+# 1. Clone the Repository
+ git clone https://github.com/yourusername/neomail.git
+ cd neomail
+
+# 2. Backend (Spring Boot)
 cd backend
 ./mvnw spring-boot:run
-Configure your application.properties with:
 
-properties
-Copy
-Edit
+# Configure your application.properties with:
 openai.api.key=your_openai_key
 spring.datasource.url=...
-3. Frontend (React)
-bash
-Copy
-Edit
+
+# 3. Frontend (React)
 cd frontend
 npm install
 npm start
-4. Chrome Extension
+# 4. Chrome Extension
 Load the /extension folder in Chrome via chrome://extensions/
-
 Enable "Developer Mode" and click "Load Unpacked"
